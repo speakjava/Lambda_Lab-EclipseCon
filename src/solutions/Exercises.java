@@ -624,7 +624,7 @@ public class Exercises {
      */
     @Test
     public void ex20_getLastWord() throws IOException {
-        //UNCOMMENT//List<String> result = null; // TODO
+        //UNCOMMENT//String result = null; // TODO
         //BEGINREMOVE
         String result =
             reader.lines()
@@ -723,7 +723,7 @@ public class Exercises {
      */
     @Test
     public void ex23_wordFrequencies() throws IOException {
-        //UNCOMMENT//Map<Integer, Long> result = null; // TODO
+        //UNCOMMENT//Map<String, Long> result = null; // TODO
         //BEGINREMOVE
         Map<String, Long> result =
             reader.lines()

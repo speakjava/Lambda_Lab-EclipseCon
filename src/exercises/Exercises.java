@@ -475,7 +475,7 @@ public class Exercises {
      */
     @Test @Ignore
     public void ex20_getLastWord() throws IOException {
-        List<String> result = null; // TODO
+        String result = null; // TODO
         
         assertEquals("thee", result);
     }
@@ -555,7 +555,7 @@ public class Exercises {
      */
     @Test @Ignore
     public void ex23_wordFrequencies() throws IOException {
-        Map<Integer, Long> result = null; // TODO
+        Map<String, Long> result = null; // TODO
         
         assertEquals(2L, (long)result.get("tender"));
         assertEquals(6L, (long)result.get("the"));
